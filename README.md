@@ -23,7 +23,8 @@ I will be adding new practice problems daily with solutions.
 - Strengthen JavaScript basics
 - Improve logical thinking
 - Prepare for coding interviews & real-world projects
-45 Questins by Sir Zia https://github.com/MuzaffarAli13/JavaScript-Practice-/blob/main/45_qns.txt
+- 
+# 45 Questins by Sir Zia https://github.com/MuzaffarAli13/JavaScript-Practice-/blob/main/45_qns.txt
 - 
 ## 📫 Connect with me:
 - 🌐 Portfolio: https://muzafar-ali-portfolio.vercel.app/  
