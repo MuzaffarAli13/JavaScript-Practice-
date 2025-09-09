@@ -130,33 +130,64 @@
 
 
 
-// 13.Write a program to store student scores in an array & sort  the array in ascending order using Array’s sort method.
-let student_scores = [400,500,200,300]
-console.log(`Score of Students ${student_scores}`);
-console.log(`Ordered Score of Students ${student_scores.sort()}`);
+// // 13.Write a program to store student scores in an array & sort  the array in ascending order using Array’s sort method.
+// let student_scores = [400,500,200,300]
+// console.log(`Score of Students ${student_scores}`);
+// console.log(`Ordered Score of Students ${student_scores.sort()}`);
 
-//14 Write a program to sort the below mentioned array: 
-// var fruits = [“strawberry”, “apple”, “orange”, “banana”]
-let fruits = ["strawberry", "apple", "orange", "banana"]
-console.log(`\nFruits List ${fruits}`);
-console.log(`Ordered Fruits List ${fruits.sort()}`);
-
-
-//15 Write a program to initialize an array with city names. Copy  3 array elements from cities array to selectedCities array.
-let city_names = ["Karachi","Islamabad","Ghotki","Sukkur"]
-let selectedCities = city_names.slice(1,3)
-console.log(`City List ${city_names}`);
-console.log(`Selected City List ${selectedCities}`);
+// //14 Write a program to sort the below mentioned array: 
+// // var fruits = [“strawberry”, “apple”, “orange”, “banana”]
+// let fruits = ["strawberry", "apple", "orange", "banana"]
+// console.log(`\nFruits List ${fruits}`);
+// console.log(`Ordered Fruits List ${fruits.sort()}`);
 
 
-// 16 Write a program to create a single string from the below mentioned array: 
-// var arr = [“This ”, “ is ”, “ my ”, “ cat”]; 
-// (Use array’s join method)
-let arr = ["This","is","my","cat"]
-console.log("Array");
-console.log(arr);
-console.log("String");
-console.log(arr.join(" "));
+// //15 Write a program to initialize an array with city names. Copy  3 array elements from cities array to selectedCities array.
+// let city_names = ["Karachi","Islamabad","Ghotki","Sukkur"]
+// let selectedCities = city_names.slice(1,3)
+// console.log(`City List ${city_names}`);
+// console.log(`Selected City List ${selectedCities}`);
 
 
-// Create a new array. Store values one by one in such a way that you can access the values in the order in which they were stored. (FIFO-First In First Out) 
+// // 16 Write a program to create a single string from the below mentioned array: 
+// // var arr = [“This ”, “ is ”, “ my ”, “ cat”]; 
+// // (Use array’s join method)
+// let arr = ["This","is","my","cat"]
+// console.log("Array");
+// console.log(arr);
+// console.log("String");
+// console.log(arr.join(" "));
+
+
+//17 Create a new array. Store values one by one in such a way that you can access the values in the order in which they were stored. (FIFO-First In First Out) 
+// let devices = []
+// devices.push("Keyboard")
+// devices.push("Mouse")
+// devices.push("Pointer")
+// devices.push("Monitor")
+
+// console.log(`Devices \n${devices}`);
+
+// for(let i = devices.length;i > 0;i--){
+//      console.log(`Out`);
+//      console.log(`${devices.shift()}`);
+// }
+
+
+
+// Write a program to store phone manufacturers (Apple,  Samsung, Motorola, Nokia, Sony & Haier) in an array. Display the following dropdown/select menu in your browser using document.write() method:
+// Array of phone manufacturers
+// let phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// for(let i = 0;i<phoneManufacturers.length;i++){
+//     let opt = document.getElementById("phone");
+//     opt.innerHTML += "<option>" + phoneManufacturers[i] + "</option"
+// }
+
+// 20. Declare and initialize an empty multidimensional array.  (Array of arrays)
+let matrix = [[],[]]
+
+//21 Declare and initialize a multidimensional array representing the following matrix:  
+let manufacturers = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+for(let i = 0;i < manufacturers.length;i++){
+    console.log(manufacturers[i]);
+}
