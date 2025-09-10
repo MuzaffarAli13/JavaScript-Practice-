@@ -183,11 +183,46 @@
 //     opt.innerHTML += "<option>" + phoneManufacturers[i] + "</option"
 // }
 
-// 20. Declare and initialize an empty multidimensional array.  (Array of arrays)
-let matrix = [[],[]]
+// // 20. Declare and initialize an empty multidimensional array.  (Array of arrays)
+// let matrix = [[],[]]
 
-//21 Declare and initialize a multidimensional array representing the following matrix:  
-let manufacturers = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
-for(let i = 0;i < manufacturers.length;i++){
-    console.log(manufacturers[i]);
-}
+// //21 Declare and initialize a multidimensional array representing the following matrix:  
+// let manufacturers = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+// for(let i = 0;i < manufacturers.length;i++){
+//     console.log(manufacturers[i]);
+// }
+
+
+
+// # Getting Started Exercises with TypeScript and Node.js  by Sir Zia Khan (Giaic And Piaic)
+
+
+// 2. Personal Message: Store a person’s name in a variable, and print a message to that person. Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
+
+// let person_name = "Muzaffar Ali";
+// console.log(`Hello ${person_name}`);
+
+
+
+
+// 3. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase,and titlecase.
+
+// let person_name = "Muzaffar Ali";
+// console.log(person_name.toLocaleLowerCase());
+// console.log(person_name.toUpperCase());
+// let titlecase = person_name.split(" ")
+// titlecase.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLocaleLowerCase()).join("");
+// console.log(titlecase);
+
+
+
+
+// // 4. Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
+// let famous_Quote = "Allama Iqbal"
+// let quote = "You are a falcon, your flight is your work; there are other skies before you"
+// console.log(`${famous_Quote} once said, ${quote}`);
+
+
+
+
+
