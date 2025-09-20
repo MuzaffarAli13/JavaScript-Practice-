@@ -272,3 +272,13 @@
 // ;
 
 
+// Class practie 17 \9\2025 
+// childNodes
+// console.log(document.childNodes[1].childNodes[2].childNodes[4].nodeName);
+// // parent
+// console.log(document.childNodes[0].parentNode);
+
+// let childs = document.childNodes
+// console.log(childs);
+
+
