@@ -281,4 +281,33 @@
 // let childs = document.childNodes
 // console.log(childs);
 
+// class practie 19/9/2025
+// let div = document.getElementById("div1").childNodes[5]
+// let div = document.getElementById("div1").nextSibling
+// console.log(div);
+
+// let bod = document.getElementById("body")
+// let div = document.createElement("div")
+// let atrribute = document.createElement("h1"); //.innerText = "Hello world"
+// let text = document.createTextNode("Hello World");
+// atrribute.appendChild(text)
+// div.append(atrribute)
+
+// let atrribute2 = document.createElement("h1"); //.innerText = "Hello world"
+// let text2 = document.createTextNode("Hello Hassnain");
+// atrribute2.appendChild(text2)
+
+// div.append(atrribute2)
+// bod.append(div)
+
+
+// div.removeChild(atrribute)
+
+
+// let div2 = document.getElementById("div2");
+// let para = document.getElementById("div2").childNodes[1]
+// div2.removeChild(para)
+
+// end 
+
 
