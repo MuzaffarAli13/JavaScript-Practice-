@@ -310,6 +310,70 @@
 
 // end 
 
-// Hassnain
+// TODO LIST CLI BASED
+// console.log("=".repeat(40));
+// console.log("CLI BASED TODO LIST APP");
+// console.log("1. Add Task");
+// console.log("2. Delete Task");
+// console.log("3. View Task");
+// console.log("4. Update Task");
+// console.log("5. Exit");
+// console.log("=".repeat(40));
 
 
+// let all_Task = ["Nimaz","Reading","Listning"]
+
+// function Add_Task(task){
+//     all_Task.push(task)
+//     console.log("-".repeat(40));
+//     console.log(`${task} Added Your Task`);
+// }
+
+// function Delete_Task(num){
+//     rem = all_Task.splice(num,1)
+//     console.log("-".repeat(40));
+//     console.log(`${rem} Remove Your Task.`);    
+// }
+
+// function View_Task(){
+//     for(let i=0; i < all_Task.length;i++){
+//         console.log(`${i+1} ${all_Task[i]}`);
+//     }
+// }
+
+// function Update_Task(num1,data){
+//     console.log("Before ");
+//     console.log(all_Task);
+//     all_Task.splice(num1,0,data)
+//     console.log(`${data} added succesfully`);
+//     console.log("After");
+//     console.log(all_Task);
+// }
+// // user prompt
+// let user = 1;
+// let user_task = "khan";
+// let data = "Kalwar"
+
+// // decision making 
+// if(user === 1){
+//     console.log("Added Task");
+//     Add_Task(user_task)
+// }
+
+// else if(user === 2){
+//     console.log("Delete Task");
+//     Delete_Task(user_task)
+// }
+// else if(user === 3){
+//     console.log("View Task");
+//     View_Task()
+// }
+// else if(user === 4){
+//     console.log("Update Task");
+//     Update_Task(user_task,data)
+// }
+// else{
+//     console.log("please Enter Valid Input");
+// }
+
+// Todo list End 23/9/2025   time raat ko 12:29 am
