@@ -451,27 +451,27 @@
 
 // switch
 
-let day = "Friday";
-
-switch (day){
-    case "Monday":
-        console.log("Monday is OFF");
-       
-    case "Tuesday":
-        console.log("Tuesday is OFF");
-       
-    case "Wednesday":
-        console.log("Wednesday is OFF");
-       
-    case "Friday":
-        console.log("Friday is On");
-       
-    default :
-    console.log("no more days");
-}
+// let day = "Monday";
+ 
+// switch (day){
+//     case "Monday":
+//         console.log("Monday is OFF");
+//         break;
+//     case "Tuesday":
+//         console.log("Tuesday is OFF");
+//         break;
+//     case "Wednesday":
+//         console.log("Wednesday is OFF");
+//         break;
+//     case "Friday":
+//         console.log("Friday is On");
+//         break;
+//     default :
+//     console.log("no more days");
+// }
 
 // 2nd multiplte condition 
-// let num = 20;
+// let num = "8";
 
 // switch(true){
 //     case (num > 0 && num < 10):
@@ -483,4 +483,3 @@ switch (day){
 //     default:
 //         console.log("other numbers");
 // }
-
