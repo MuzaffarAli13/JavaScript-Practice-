@@ -407,12 +407,80 @@
 
 // 14. Guest List: If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you’d like to
 // invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
-let guest_list = ["Aleeza","Ghazala","Daraiba"]
+// let guest_list = ["Aleeza","Ghazala","Daraiba"]
 
-for(let i=0;i < guest_list.length;i++){
-     console.log(`Dear ${guest_list[i]}, you are invited to dinner!`);    
+// for(let i=0;i < guest_list.length;i++){
+//      console.log(`Dear ${guest_list[i]}, you are invited to dinner!`);    
+// }
+
+
+
+// Class Revision Smit
+
+// function CheckCapmus(){
+//      let roll_number = Number(document.getElementById("rollno").value)
+     
+
+//      let campus_id = document.getElementById("campus"); 
+
+//      switch (roll_number) {
+//           case 100:
+//                campus_id.value = "zaitoon"
+//                break;
+//           case 200:
+//                campus_id.value = "PAIC"
+//                break;
+//           case 300:
+//                campus_id.value = "GIAIC"
+//                break;
+//           default:
+//                break
+//      }
+     
+     
+// }
+
+
+
+// 15. Changing Guest List: You just heard that one of your guests can’t make the
+// dinner, so you need to send out a new set of invitations. You’ll have to think of
+// someone else to invite.
+
+
+// Quiz Preparation SMIT 10/10/2025
+
+// switch
+
+let day = "Friday";
+
+switch (day){
+    case "Monday":
+        console.log("Monday is OFF");
+       
+    case "Tuesday":
+        console.log("Tuesday is OFF");
+       
+    case "Wednesday":
+        console.log("Wednesday is OFF");
+       
+    case "Friday":
+        console.log("Friday is On");
+       
+    default :
+    console.log("no more days");
 }
 
+// 2nd multiplte condition 
+// let num = 20;
 
-
+// switch(true){
+//     case (num > 0 && num < 10):
+//         console.log("0 to 10");
+//         break;
+//     case (num > 11 && num <= 20):
+//         console.log("11 to 20");
+//         break;
+//     default:
+//         console.log("other numbers");
+// }
 
